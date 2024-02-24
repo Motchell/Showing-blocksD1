@@ -1,0 +1,52 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #d5d2ae;
+    width: 900px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.title>img{
+    height: 80px;
+    width: 120px;
+    background-color: #fff;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin: 5% 0 1% 0;
+    font-size: larger;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 800px;
+    gap: 10px;
+    margin-bottom: 5%;
+}
+
+.container>div{
+    display: flex;
+    width: 140px;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    background-color: #82b4ee;
+    border: solid #000;
+}
+
+.container>.rojito{
+    background-color: #f36870 ;
+}
+
+.container>div>img{
+    width: 120px;
+    height: 120px;
+}
